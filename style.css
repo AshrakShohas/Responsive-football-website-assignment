@@ -242,7 +242,7 @@ header {
       font-size: 50%;
     }
     .container {
-      width: 100%;
+      width: 90%;
     }
     .player-container {
       width: 90%;
@@ -338,4 +338,65 @@ header {
     }
   }
 
-  
+  @media only screen and (min-width: 450px) and (max-width: 750px) {
+    html {
+      font-size: 75%;
+    }
+    .container {
+      width: 90%;
+    }
+    .player-container {
+      width: 98%;
+    }
+    .header-part {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 86px;
+    }
+    .header-title {
+      width: 280px;
+      height: 140px;
+      left: 0px;
+    }
+    .header-title h2 {
+      font-size: 55px;
+      line-height: 50px;
+    }
+    .header-pic img {
+      width: 329px;
+      height: 250px;
+      margin-top: 150px;
+    }
+    .players {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 24px;
+    }
+    .title h1 {
+      line-height: 45px;
+      text-align: center;
+      margin: 0;
+      margin-top: 40px;
+    }
+    #title {
+      font-size: 3em;
+    }
+    #subtitle {
+      font-size: 2em;
+      text-align: center;
+      font-weight: 200;
+    }
+    #line {
+      margin-top: 10px;
+      font-size: 16px;
+      margin-bottom: 60px;
+    }
+    .countdown {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1em;
+    }
+  }
